@@ -1,0 +1,5 @@
+// Created By [[[nest g service disk]]]
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export class DiskService {}
