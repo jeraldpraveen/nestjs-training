@@ -10,4 +10,4 @@ Content-Type: application/json
 }
 
 ### Get a PArticular Messsage
-GET http://localhost:3000/messages/1
+GET http://localhost:3000/messages/12345
