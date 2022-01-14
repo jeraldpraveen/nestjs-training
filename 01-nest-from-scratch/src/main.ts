@@ -1,18 +1,5 @@
-import { Controller, Module, Get } from "@nestjs/common";
 import { NestFactory } from "@nestjs/core";
-
-@Controller()
-class AppController {
-  @Get()
-  getRootRoute() {
-    return "Hi,this is Jerald";
-  }
-}
-
-@Module({
-  controllers: [AppController],
-})
-class AppModule {}
+import { AppModule } from "./app.module";
 
 const bootstrap = async () => {
   const app = await NestFactory.create(AppModule);
@@ -22,3 +9,4 @@ const bootstrap = async () => {
 bootstrap();
 
 //To Run In Terminal [[[npx ts-node-dev src/main.ts]]]
+// Starting Up a Nest App ---> localhost:3000 in Browser
