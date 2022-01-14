@@ -6,7 +6,6 @@ import {
   Body,
   Param,
   NotFoundException,
-  Injectable,
 } from '@nestjs/common';
 
 import { CreateMessageDto } from './dtos/create-message.dto';
