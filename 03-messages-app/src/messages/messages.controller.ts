@@ -1,5 +1,5 @@
 // Created by command[[[[nest generate controller messages/messages --flat]]]]
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Get, Post, Body, Param } from '@nestjs/common';
 
 @Controller('messages')
 export class MessagesController {
@@ -9,10 +9,13 @@ export class MessagesController {
   }
 
   @Post()
-  createMessage() {}
+  createMessage(@Body() body: any) {
+    console.log(body);
+  }
 
   @Get('/:id')
-  getMessage() {
+  getMessage(@Param('id') id: string) {
+    console.log(id);
     return 'single';
   }
 }
