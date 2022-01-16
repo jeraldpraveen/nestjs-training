@@ -6,3 +6,7 @@ content-type: application/json
   "email": "jerald.vit@gmail.com",
   "password": "test@12345"
 }
+
+
+#### Particular ID
+GET http://localhost:3000/auth/1
