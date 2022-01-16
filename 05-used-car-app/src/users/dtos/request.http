@@ -10,3 +10,12 @@ content-type: application/json
 
 #### Particular ID
 GET http://localhost:3000/auth/1
+
+####
+PATCH http://localhost:3000/auth/2
+content-type: application/json
+
+{
+  "email": "praveen@gmail.com",
+  "password": "test@12345"
+}
