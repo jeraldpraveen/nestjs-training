@@ -24,4 +24,4 @@ content-type: application/json
 }
 
 #### Delete Particular ID
-DELETE http://localhost:3000/auth/3
+DELETE http://localhost:3000/auth/5
