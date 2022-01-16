@@ -19,8 +19,7 @@ PATCH http://localhost:3000/auth/4
 content-type: application/json
 
 {
-  "email": "praveen@gmail.com",
-  "password": "test@12345"
+  "password": "praveen@gmail.com"
 }
 
 #### Delete Particular ID
